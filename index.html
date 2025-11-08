@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillLens+ Talent Scoring App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <style>
+      @media print {
+        body {
+          background-color: white !important;
+          color: black !important;
+        }
+        /* Hide non-printable elements */
+        header, .no-print {
+          display: none !important;
+        }
+        /* Reset layout for printing */
+        .printable-content {
+          max-width: 100% !important;
+          padding: 0 !important;
+        }
+        .print-grid {
+          display: block !important;
+        }
+        .print-col-span-2 {
+          width: 100% !important;
+        }
+         .print-page-break {
+          page-break-before: always;
+        }
+        .bg-gray-800\/50, .bg-gray-900 {
+            background-color: #f9fafb !important; /* light gray for sections */
+            border: 1px solid #e5e7eb !important;
+        }
+        h1, h2, h3, p, span, div {
+            color: black !important;
+        }
+        .text-transparent {
+            color: black !important;
+            background-image: none !important;
+        }
+        video {
+           border: 1px solid #ccc;
+        }
+      }
+    </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-900 text-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+
+{
+  "name": "SkillLens+ Talent Scoring App",
+  "description": "An AI-powered web application that allows users to upload or record videos of physical activities, analyzes their motion using pose detection, scores their technique against a reference, and provides AI-driven feedback and progress tracking.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
