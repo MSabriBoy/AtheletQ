@@ -34,15 +34,15 @@ Data Visualization (Victory Charts)
 Dashboard / Results Display
 
 ## 🚀 Quick Start
-# 1️⃣ Clone this repository
-git clone https://github.com/Sachin4717/AtheletQ.git
+#### 1️⃣ Clone this repository
+git clone https://github.com/MSabriBoy/AtheletQ.git
 cd AtheletQ
 
-# 2️⃣ Install dependencies
+#### 2️⃣ Install dependencies
 npm install
 
-# 3️⃣ Start the development server
+#### 3️⃣ Start the development server
 npm run dev
 
-# 4️⃣ Open the app
-# Visit the link shown in your terminal (usually http://localhost:3000)
+#### 4️⃣ Open the app
+Visit the link shown in your terminal (usually http://localhost:3000)
